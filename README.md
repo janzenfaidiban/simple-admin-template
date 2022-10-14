@@ -1,5 +1,7 @@
 # Admin Panel
 
+Lihat hasil desain di sini https://janzenfaidiban.github.io/simple-admin-template/
+
 Dasbor <br>
 
 DATA UMUM <br>
