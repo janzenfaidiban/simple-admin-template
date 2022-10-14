@@ -4,15 +4,15 @@ Dasbor <br>
 
 DATA UMUM <br>
 
-- [ ] Guru <br>
+- [x] Guru <br>
 - [ ] Detail <br>
-- [ ] Tambah <br>
+- [x] Tambah <br>
 - [ ] Ubah <br>
 - [ ] Hapus <br>
 
-- [ ] Siswa <br>
+- [x] Siswa <br>
 - [ ] Detail <br>
-- [ ] Tambah <br>
+- [x] Tambah <br>
 - [ ] Ubah <br>
 - [ ] Hapus <br>
 
@@ -30,7 +30,7 @@ SURAT-MENYURAT <br>
 - [ ] Ubah <br>
 - [ ] Hapus <br>
 
-- [ ]Surat Keluar <br>
+- [ ] Surat Keluar <br>
 - [ ] Detail <br>
 - [ ] Tambah <br>
 - [ ] Ubah <br>
