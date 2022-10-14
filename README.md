@@ -4,15 +4,15 @@ Dasbor <br>
 
 DATA UMUM <br>
 
-- [x] Guru <br>
+- ✅ Guru <br>
 - [ ] Detail <br>
-- [x] Tambah <br>
+- ✅ Tambah <br>
 - [ ] Ubah <br>
 - [ ] Hapus <br>
 
-- [x] Siswa <br>
+- ✅ Siswa <br>
 - [ ] Detail <br>
-- [x] Tambah <br>
+- ✅ Tambah <br>
 - [ ] Ubah <br>
 - [ ] Hapus <br>
 
