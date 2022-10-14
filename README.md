@@ -4,11 +4,13 @@ Dasbor <br>
 
 DATA UMUM <br>
 
+```
 - Guru <br>
 - - Detail <br>
 - - Tambah <br>
 - - Ubah <br>
 - - Hapus <br>
+```
 
 - Siswa <br>
 - - Detail <br>
