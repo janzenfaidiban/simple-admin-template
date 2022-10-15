@@ -66,19 +66,19 @@ PENGATURAN <br>
 Halaman Login
 login.html
 
-<img src="./screenshot/login.png" width="500px">
+<img src="https://github.com/janzenfaidiban/simple-admin-template/blob/main/_screenshot/login.png?raw=true" width="500px">
 
 Halaman Dasbor
 index.html
 
-<img src="./screenshot/index.png" width="500px">
+<img src="https://github.com/janzenfaidiban/simple-admin-template/blob/main/_screenshot/index.png?raw=true" width="500px">
 
 Halaman Guru
 guru.html
 
-<img src="./screenshot/guru.png" width="500px">
+<img src="https://github.com/janzenfaidiban/simple-admin-template/blob/main/_screenshot/guru.png?raw=true" width="500px">
 
 Halaman Tambah Guru
 guru-tambah.html
 
-<img src="./screenshot/guru-tambah.png" width="500px">
+<img src="https://github.com/janzenfaidiban/simple-admin-template/blob/main/_screenshot/guru-tambah.png?raw=true" width="500px">
