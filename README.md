@@ -18,7 +18,7 @@ DATA UMUM <br>
 ⌛ Ubah <br>
 ⌛ Hapus <br>
 
-⌛ Sarpras <br>
+✅ Sarpras <br>
 ⌛ Detail <br>
 ⌛ Tambah <br>
 ⌛ Ubah <br>
@@ -26,13 +26,13 @@ DATA UMUM <br>
 
 SURAT-MENYURAT <br>
 
-⌛ Surat Masuk <br>
+✅ Surat Masuk <br>
 ⌛ Detail <br>
 ⌛ Tambah <br>
 ⌛ Ubah <br>
 ⌛ Hapus <br>
 
-⌛ Surat Keluar <br>
+✅ Surat Keluar <br>
 ⌛ Detail <br>
 ⌛ Tambah <br>
 ⌛ Ubah <br>
@@ -40,7 +40,7 @@ SURAT-MENYURAT <br>
 
 KEUANGAN <br>
 
-⌛ Pembayaran SPP <br>
+✅ Pembayaran SPP <br>
 ⌛ Detail <br>
 ⌛ Tambah <br>
 ⌛ Ubah <br>
