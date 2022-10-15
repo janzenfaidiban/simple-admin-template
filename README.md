@@ -46,16 +46,39 @@ KEUANGAN <br>
 ⌛ Ubah <br>
 ⌛ Hapus <br>
 
-⌛ Arus Kas Umum <br>
+✅ Arus Kas Umum <br>
 ⌛ Detail <br>
 ⌛ Tambah <br>
 ⌛ Ubah <br>
 ⌛ Hapus <br>
 
 PENGATURAN <br>
-⌛ Informasi Situs <br>
+✅ Informasi Situs <br>
 ⌛ Ubah <br>
 
 
 ✅ Sudah selesai <br>
 ⌛ Dalam proses <br>
+
+
+## Screenshot
+
+Halaman Login
+login.html
+
+<img src="./screenshot/login.png" width="500px">
+
+Halaman Dasbor
+index.html
+
+<img src="./screenshot/index.png" width="500px">
+
+Halaman Guru
+guru.html
+
+<img src="./screenshot/guru.png" width="500px">
+
+Halaman Tambah Guru
+guru-tambah.html
+
+<img src="./screenshot/guru-tambah.png" width="500px">
