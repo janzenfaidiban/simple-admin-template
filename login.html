@@ -85,25 +85,52 @@
 
 <body class="text-center">
 
-    <main class="form-signin w-100 m-auto">
-        <form action="index.html">
-            <span data-feather="eye" class="align-text"></span>
-            <h1 class="display-1 fw-bold mb-3 fw-normal">Login</h1>
-            <p>Sistem Informasi <br> PAUD I.S Kijne Sborhoinyi</p>
+    <!-- header start -->
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img src="./img/logo-paud-transparent.png" alt="Logo PAUD" width="100">
+            </a>
 
-            <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Alamat Email</label>
-            </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Kata Sandi</label>
-            </div>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Beranda</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Tentang Kami</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Para Guru</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Galeri Kegiatan</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Hubungi Kami</a></li>
+            </ul>
 
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
-        </form>
-    </main>
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-primary">Login</button>
+            </div>
+        </header>
+    </div>
+    <!-- header end -->
+
+    <!-- content start -->
+    <div class="container">
+        <main class="form-signin w-100 m-auto">
+            <form action="index.html">
+                <span data-feather="eye" class="align-text"></span>
+                <h1 class="display-1 fw-bold mb-3 fw-normal">Login</h1>
+                <p>Sistem Informasi <br> PAUD I.S Kijne Sborhoinyi</p>
+
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Alamat Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Kata Sandi</label>
+                </div>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+                <p class="mt-5 mb-3 text-muted">&copy; 2022 - PAUD I.S Kijne Sborhoinyi</p>
+            </form>
+        </main>
+    </div>
+    <!-- content end -->
 
 
     <!-- JavaScript Bundle with Popper -->

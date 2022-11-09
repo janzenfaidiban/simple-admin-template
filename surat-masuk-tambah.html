@@ -138,13 +138,12 @@
                 <div
                     class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 
-                    <h1 class="h2">Surat Masuk</h1>
+                    <h1 class="h2">Tambah Surat Masuk</h1>
 
                     <div class="btn-toolbar mb-2 mb-md-0">
-
-                        <a href="surat-masuk-tambah.html" class="btn btn-sm btn-dark">
-                            <span data-feather="plus-circle" class="align-text"></span>
-                            Tambah
+                        <a href="surat-masuk.html" class="btn btn-sm btn-outline-dark">
+                            <span data-feather="arrow-left" class="align-text"></span>
+                            Kembali
                         </a>
                     </div>
                 </div>
@@ -156,72 +155,61 @@
                         <div class="card">
 
 
-                            <div class="card-body p-0 m-0">
+                            <div class="card-body">
 
-                                <div class="table-responsive">
+                                <form action="#">
 
-                                    <table id="example" class="table table-striped table-hover" style="width:100%">
-                                        <thead>
-                                            <tr>
-                                                <th class="text-end">No</th>
-                                                <th class="text-center">Tanggal Penerimaan</th>
-                                                <th class="text-center">Nomor Surat</th>
-                                                <th class="text-center">Tanggal</th>
-                                                <th class="text-center">Pengirim</th>
-                                                <th class="text-center">Isi Surat</th>
-                                                <th class="text-center"></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-end">1</td>
-                                                <td>15/10/2022</td>
-                                                <td class="text-center"><span data-feather="file-text" class="align-text-bottom"></span> SM-12345</td>
-                                                <td class="text-center">14 Oktober 2022</td>
-                                                <td>Dinas Pendidikan</td>
-                                                <td class="text-end">
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="eye" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="edit" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="trash" class="align-text"></span></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-end">2</td>
-                                                <td>14/10/2022</td>
-                                                <td class="text-center"><span data-feather="file-text" class="align-text-bottom"></span> SM-54321</td>
-                                                <td class="text-center">12 Oktober 2022</td>
-                                                <td>Kementerian Pendidikan</td>
-                                                <td class="text-end">
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="eye" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="edit" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="trash" class="align-text"></span></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-end">3</td>
-                                                <td>14/10/2022</td>
-                                                <td class="text-center"><span data-feather="file-text" class="align-text-bottom"></span> SM-54321</td>
-                                                <td class="text-center">12 Oktober 2022</td>
-                                                <td>Dinas Pendidikan Provinsi Papua</td>
-                                                <td class="text-end">
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="eye" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="edit" class="align-text"></span></a>
-                                                    <a href="#" class="btn btn-sm btn-secondary"><span
-                                                            data-feather="trash" class="align-text"></span></a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="row">
+                                        <div class="col-lg-6">
 
-                                </div>
+                                            <div class="mb-3">
+                                                <label for="tanggal_penerimaan" class="form-label text-muted">Tanggal Penerimaan</label>
+                                                <input type="date" class="form-control" id="tanggal_penerimaan" placeholder="Tanggal Penerimaan...">
+                                            </div>                                         
+        
+                                            <div class="mb-3">
+                                                <label for="nomor_surat" class="form-label text-muted">Nomor Surat</label>
+                                                <input type="text" class="form-control" id="nomor_surat" placeholder="Nomor Surat...">
+                                            </div>
+        
+                                            <div class="mb-3">
+                                                <label for="tanggal_surat" class="form-label text-muted">Tanggal Surat</label>
+                                                <input type="date" class="form-control" id="tanggal_surat" placeholder="Tanggal Surat...">
+                                            </div>
+        
+                                            <div class="mb-3">
+                                                <label for="pengirim" class="form-label text-muted">Pengirim</label>
+                                                <textarea name="pengirim" id="" cols="30" rows="5" class="form-control" placeholder="Pengirim..."></textarea>
+                                            </div>
+        
+                                            <div class="mb-3">
+                                                <div class="mb-3">
+                                                    <img src="./img/surat-masuk/0.png" alt="Gambar" class="img img-thumbnail p-3" width="200px">
+                                                </div>
+                                                <label for="gambar" class="form-label text-muted">Gambar</label>
+                                                <input type="file" class="form-control">
+                                                
+                                            </div>
+
+                                            <div class="py-2">
+                                                <hr>
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <button type="submit" class="btn btn-dark">
+                                                    <span data-feather="plus-circle" class="align-text"></span>
+                                                    Tambah
+                                                </button>
+                                                <button type="submit" class="btn btn-outline-dark">
+                                                    <span data-feather="x" class="align-text"></span>
+                                                    Batal
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </form>
 
                             </div>
 
@@ -232,6 +220,7 @@
                 </div>
 
             </main>
+
         </div>
     </div>
 
